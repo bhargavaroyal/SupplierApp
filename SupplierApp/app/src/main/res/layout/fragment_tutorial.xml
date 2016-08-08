@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:ignore="MissingPrefix">
+
+    <ImageView
+            android:id="@+id/tutorial_center_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/margin_100dp"
+            android:contentDescription="@null"
+            android:src="@drawable/ic_schedule" />
+
+    <TextView
+            android:id="@+id/tutorial_title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tutorial_center_iv"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/margin_94dp"
+            android:textAllCaps="true"
+            android:textSize="@dimen/margin_15dp"
+            android:textStyle="bold"
+            app:font="roboto_regular" />
+
+    <TextView
+            android:id="@+id/tutorial_subtitle_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tutorial_title_tv"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/margin_18dp"
+            android:gravity="center"
+            android:lineSpacingExtra="@dimen/margin_5dp"
+
+            android:textSize="@dimen/margin_15dp"
+            app:font="robot_light" />
+
+</RelativeLayout>
+        <!--android:textColor="@color/white"!-->

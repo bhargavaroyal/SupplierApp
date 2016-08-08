@@ -1,0 +1,20 @@
+<resources>
+
+    <attr name="font" format="enum">
+        <enum name="roboto_regular" value="0" />
+        <enum name="roboto_medium" value="1" />
+        <enum name="robot_light" value="2" />
+        <enum name="latin_style" value="3" />
+    </attr>
+
+    <declare-styleable name="TypefacedTextView">
+        <attr name="font" />
+    </declare-styleable>
+    <declare-styleable name="TypefacedButton">
+        <attr name="font" />
+    </declare-styleable>
+    <declare-styleable name="TypefacedEditText">
+        <attr name="font" />
+    </declare-styleable>
+
+</resources>

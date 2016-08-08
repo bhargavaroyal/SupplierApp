@@ -1,0 +1,43 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/LavenderBlush"
+    tools:context=".UI.Activities.HomeActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <com.mojro.supplier.supplierapp.CustomUi.TypefacedButton
+            android:id="@+id/hom_login_bt"
+            android:layout_width="@dimen/margin_100dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/margin_100dp"
+            android:background="@color/EDGreen"
+            android:onClick="onClick"
+            android:text="@string/login"
+            android:textColor="@color/White" />
+
+
+        <com.mojro.supplier.supplierapp.CustomUi.TypefacedButton
+            android:id="@+id/hom_register_bt"
+            android:layout_width="@dimen/margin_100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/hom_login_bt"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/margin_10dp"
+            android:background="@color/EDGreen"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:text="@string/register"
+            android:textColor="@color/White" />
+
+
+    </RelativeLayout>
+
+
+</ScrollView>

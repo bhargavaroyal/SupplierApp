@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.mojro.supplier.supplierapp.CustomUi.TypefacedEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/log_email_tv"
+        android:layout_marginTop="@dimen/margin_50dp"
+        android:layout_marginRight="@dimen/margin_20dp"
+        android:layout_marginLeft="@dimen/margin_20dp"
+        android:hint="@string/email"/>
+
+    <com.mojro.supplier.supplierapp.CustomUi.TypefacedEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/log_password_et"
+        android:layout_marginTop="@dimen/margin_20dp"
+        android:layout_marginRight="@dimen/margin_20dp"
+        android:layout_marginLeft="@dimen/margin_20dp"
+        android:layout_below="@id/log_email_tv"
+        android:hint="@string/Password"/>
+    <com.mojro.supplier.supplierapp.CustomUi.TypefacedButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/login_bt"
+        android:onClick="onClick"
+        android:layout_below="@id/log_password_et"
+        android:layout_marginTop="@dimen/margin_20dp"
+        android:layout_marginLeft="@dimen/margin_50dp"
+        android:layout_marginRight="@dimen/margin_50dp"
+        android:text="@string/login"
+        android:background="@color/IndianRed"
+        />
+
+
+</RelativeLayout>
